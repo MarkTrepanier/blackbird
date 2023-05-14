@@ -2,6 +2,7 @@ import logo from "./logo.svg";
 import "./App.css";
 const newLogo =
   "https://www.propelleraero.com/wp-content/uploads/2021/05/Vector.svg";
+const propellerLink = "https://www.propelleraero.com/dirtmate/";
 function App() {
   return (
     <div className="App">
@@ -12,11 +13,11 @@ function App() {
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href={propellerLink}
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn Propeller
         </a>
       </header>
     </div>
